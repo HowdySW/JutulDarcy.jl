@@ -8,7 +8,7 @@
 # We define a simple 1D gravity column with an approximate 10-1 ratio in density
 # between the two compressible phases and let it simulate until equilibrium is
 # reached.
-using JutulDarcy, Jutul, GLMakie
+using JutulDarcy, Jutul
 nc = 100
 domain = get_1d_reservoir(nc, z_max = 1)
 #-
